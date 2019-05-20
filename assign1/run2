@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Script for testing CS415/515 Assignment 1's prime-pthd program.
+#
+
+
+echo    
+echo ./prime-pthd
+./prime-pthd
+
+for i in 0 1 2 5 8
+do
+    echo    
+    echo ./prime-pthd 100 $i
+    ./prime-pthd 100 $i
+done
+
+for i in 1 2 8 16 20
+do
+    echo ./prime-pthd 500 $i
+    ./prime-pthd 500 $i
+done
+
+exit 0

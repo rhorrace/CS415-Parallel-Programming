@@ -1,0 +1,17 @@
+Script started on Wed 21 Feb 2018 06:53:13 PM PST
+rhorrace@babbage:~/CS415/assign3$ ./mmul -nl 1
+Total sum of Matrix C = 3584 (N=8: 3584,N=16: 61440,N=32: 1015808,N=64: 16515072)
+
+rhorrace@babbage:~/CS415/assign3$ ./mmul --N=16 -nl 1
+Total sum of Matrix C = 61440 (N=8: 3584,N=16: 61440,N=32: 1015808,N=64: 16515072)
+
+rhorrace@babbage:~/CS415/assign3$ ./mmul --N=32 -nl 1
+Total sum of Matrix C = 1015808 (N=8: 3584,N=16: 61440,N=32: 1015808,N=64: 16515072)
+
+rhorrace@babbage:~/CS415/assign3$ ./mmul --N=64 -nl 1
+Total sum of Matrix C = 16515072 (N=8: 3584,N=16: 61440,N=32: 1015808,N=64: 16515072)
+
+rhorrace@babbage:~/CS415/assign3$ exit
+exit
+
+Script done on Wed 21 Feb 2018 06:53:52 PM PST
